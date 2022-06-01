@@ -1,86 +1,59 @@
-/* Universal Styles */
-body {
-  margin: 0px;
-  background-color: rgb(255, 255, 255);
-  font-family: 'Rock Salt', cursive;
-  text-align: center;
-}
-/*
-.secondary-background {
-  background-color: rgb(30, 118, 47);
-}*/
-
-.tagline {
-  font-family: 'Quicksand', sans-serif;
-  color: lightslategrey;
-  line-height: 125px;
-}
-
-/* Header */
-h1 {
-  margin: 0;
-  background-color: steelblue;
-  line-height: 100px;
-  color: khaki;
-}
-
-h2 {
-  margin: 1px;
-}
-
-/* App Container */
-.container {
-  border: 2px solid snow;
-}
-
-/* To Do Section */
-.week {
-}
-
-.row {
-  min-height: 20px;
-  display: flex;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 20px;
   justify-content: center;
+  margin-top: 200px;
+
+  
+  
+}
+.grid-container > div {
+  
+  background-color: rgba(255, 255, 255, 0.8);
+ /* border-left: 1px solid rgba(130, 121, 121, 0.8);*/
+  padding: 80px;
+  font-size: 30px;
+  text-align: center;
  
-}
-
-.square {
-  width: 125px;
-  height: 125px;
-  padding: 10px;
-}
-
-.day.square {
-  background-color: steelblue;
-  border: 1px solid rgb(144, 139, 139)
-}
-
-.task.square {
-  background-color: rgb(140, 205, 240);
-  border: 1px solid rgb(144, 139, 139);
   
 }
 
-.task p {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  font-size: 12px;
+.p1 {
+  font-family: 'Roboto Condensed';
+  font-size: 15px;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 1.5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  /*text-decoration-line: underline;*/
+
+}
+.internal-lines{
+  border-left: 0.1px solid rgba(192, 192, 192, 0.8);
+}
+.internal-bottom {
+  border-bottom: 0.1px solid rgba(192, 192, 192, 0.8);
+}
+.h1-exp{
+    font-family: 'Roboto Condensed';
+    line-height: 20px;
+    text-align: center;
+    
+    
 }
 
-/* Reminders */
-.reminders {
-  background-color: khaki;
+hr {
+  width: 8%;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #8a8a8a;
+  border: 0 none;
 }
 
-.reminders h3 {
-  width: 100%;
-  margin: 10px;
-  color: black;
-  line-height: 90px;
-  font-size: 24px;
-}
-
-/* Footer */
-footer {
-  font-size: 24px;
+h6 {
+  white-space:nowrap;
 }
