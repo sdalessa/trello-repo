@@ -1,19 +1,108 @@
 html, body {
-    background-image: url(images/colored.png);
-    background-size: cover;   
-    margin: auto;
-    padding: auto;
-    }
- p {
-     font-family: Ink Free;
-     color: #034AC9;
-    }
-li { font-family:Georgia;
-     font-size:20px;
-    }
+    /*
+    background-image: url(/images/design-assets/bgk-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto; 
+    */    
+    background: url(/images/design-assets/bgk-header.png) no-repeat center center fixed; 
+    background-size: cover;
 
- #image1 {
-     border-radius: 70%;
-     height: 400px;
-     width: 600px;
- }   
+
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;    
+}
+
+.main-nav {
+    text-align: center;
+    margin-left: 280px;
+    font-family: 'Roboto Condensed';
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(173, 170, 170);    
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.035);
+}
+
+
+/* find to change text color after click */
+.nav a:focus{
+    color: rgba(60, 224, 224);
+    
+}
+
+
+
+
+
+
+.continfo {
+    padding-top: 15%;
+}
+
+#h1-1 {
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;
+            
+}
+
+.hr1 {
+    width: 40px;
+    height: 0.5px;
+    background-color: rgb(60, 224, 224);
+    border: none;    
+}
+
+#p1 {
+    font-family: Helvetica;
+    font-size: 10px;
+    color:antiquewhite;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.conbut1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;    
+}
+
+.button1 {
+    cursor: pointer;       
+    border: 1.2px solid rgb(60, 224, 224);
+    height: 30px;
+    width: 90px;
+    background-color: transparent;
+    font-size: 10px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color:rgb(60, 224, 224);   
+    margin-top: 2%;
+}
+
+.button1:hover{
+    box-shadow: inset 35px 125px 0 0 rgba(255, 255, 255, 0.035);
+}
