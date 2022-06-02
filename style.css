@@ -4,6 +4,24 @@ html, body {
     
 }
 
+#logo11 {
+    float: left;
+    margin-top: 12px;
+    margin-left: 480px;
+     
+}
+
+#logp {
+    font-family: 'Blogger Sans';
+    color: rgba(66, 184, 184, 0.733);
+    font-weight: 100;    
+    font-size: 36px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 8px;
+    
+}
+
 .nav ul {
     margin: 0;
 }
@@ -23,12 +41,9 @@ html, body {
 }
 
 .main-nav {
-    text-align: center;
-    margin-left: 480px;
-    font-family: 'Roboto Condensed';
-    font-size: 14px;
-    font-weight: bold;
-    color: rgba(66, 184, 184, 0.733);  
+    text-align: right;
+    margin-right: 350px;   
+    font-size: 14px;      
 }
 
 .nav a:hover{
