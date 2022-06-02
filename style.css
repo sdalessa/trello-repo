@@ -1,15 +1,7 @@
-html, body {
-    /*
-    background-image: url(/images/design-assets/bgk-header.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    width: auto; 
-    */    
+html, body {    
     background: url(/images/design-assets/bgk-header.png) no-repeat center center fixed; 
     background-size: cover;
-
-
+    
 }
 
 .nav ul {
@@ -21,61 +13,56 @@ html, body {
 }
 
 .nav a { 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     display: inline-block;
-    padding: 8px;
+    padding: 16px;
+    margin-top: 10px;
     color: white;
     text-decoration: none;    
 }
 
 .main-nav {
     text-align: center;
-    margin-left: 280px;
+    margin-left: 480px;
     font-family: 'Roboto Condensed';
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
-    color: rgb(173, 170, 170);    
+    color: rgba(66, 184, 184, 0.733);  
 }
 
 .nav a:hover{
-    background-color: rgba(255, 255, 255, 0.035);
-}
-
-
-/* find to change text color after click */
-.nav a:focus{
-    color: rgba(60, 224, 224);
+    color: rgb(104, 252, 252);
     
 }
 
 
-
-
-
+/* find onclick for css */
+.nav a:focus{
+    color: rgba(60, 224, 224, 0.733);   
+}
 
 .continfo {
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 #h1-1 {
     font-weight: bold;
     color: antiquewhite;
-    text-align: center;
-            
+    text-align: center;            
 }
 
 .hr1 {
-    width: 40px;
-    height: 0.5px;
-    background-color: rgb(60, 224, 224);
+    width: 50px;
+    height: 1.7px;
+    background-color: rgba(66, 184, 184, 0.733);
     border: none;    
 }
 
 #p1 {
     font-family: Helvetica;
-    font-size: 10px;
-    color:antiquewhite;
+    font-size: 14px;
+    color:rgb(206, 203, 200);
     text-align: center;
     margin-top: 1.5%;
     margin-left: 30%;
@@ -92,17 +79,111 @@ html, body {
 
 .button1 {
     cursor: pointer;       
-    border: 1.2px solid rgb(60, 224, 224);
-    height: 30px;
-    width: 90px;
+    border: 1.2px solid rgba(66, 184, 184, 0.733);
+    height: 40px;
+    width: 130px;
     background-color: transparent;
-    font-size: 10px;
+    font-size: 12px;
     font-family: Helvetica;
     font-weight: bold;
     color:rgb(60, 224, 224);   
-    margin-top: 2%;
+    margin-top: 1.5%;
 }
 
 .button1:hover{
-    box-shadow: inset 35px 125px 0 0 rgba(255, 255, 255, 0.035);
+    box-shadow: inset 35px 125px 0 0 rgba(255, 255, 255, 0.050);
 }
+
+#h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.main-footer{
+    background: url(/images/design-assets/bgk-footer.png);
+    background-size: contain;
+    height: 100vh;
+    background-repeat: no-repeat;    
+    background-position: fill;
+       
+}   
+
+/*
+.navi li {
+    list-style-type: none;  
+      
+}
+
+.footer-nav img {    
+    width: 32px;
+    height: 32px;
+}
+
+*/
+
+
+
+
+
+/* CSS EXPERTISE.HTML */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 200px;
+  
+    
+    
+  }
+  .grid-container > div {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+   /* border-left: 1px solid rgba(130, 121, 121, 0.8);*/
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+   
+    
+  }
+  
+  .p1 {
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    /*text-decoration-line: underline;*/
+  
+  }
+  .internal-lines{
+    border-left: 0.1px solid rgba(192, 192, 192, 0.8);
+  }
+  .internal-bottom {
+    border-bottom: 0.1px solid rgba(192, 192, 192, 0.8);
+  }
+  .h1-exp{
+      font-family: 'Roboto Condensed';
+      line-height: 20px;
+      text-align: center;
+      
+      
+  }
+  
+  hr {
+    width: 8%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8a8a8a;
+    border: 0 none;
+  }
+  
+  h6 {
+    white-space:nowrap;
+  }
