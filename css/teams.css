@@ -1,0 +1,54 @@
+
+ body {    
+    background: url(../images/design-assets/bgk-middle.png) no-repeat center center fixed; 
+    background-size: cover;
+    color:white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;   
+    justify-content: center;
+    margin-top: 100px;
+    grid-column-gap: 40px;
+    
+}
+
+.empty-box {
+    width:300px ;
+    height:320px ;
+    background-color:white;
+    border:0.5px solid rgba(255, 255, 255, 0.288);
+}
+.box-transparent{
+    width:300px ;
+    height:100px ;
+    background-color:transparent;
+    text-align:center;
+    border:0.5px solid rgba(255, 255, 255, 0.288);
+    
+}
+
+h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style:sans-serif;
+}
+h3.light {
+    font-weight:lighter;
+    color:rgba(255, 255, 255, 0.527);
+    margin-top:-10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+   font-size:1.3em;
+   text-align:center;
+   margin-top: -15px;
+
+}
+p.p_unten {
+   margin-top:80px;
+   font-size:1.3em;
+   text-align:center;
+   margin-bottom: -2px;
+}
