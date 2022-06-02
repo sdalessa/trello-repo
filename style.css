@@ -1,19 +1,126 @@
-html, body {
-    background-image: url(images/colored.png);
-    background-size: cover;   
-    margin: auto;
-    padding: auto;
-    }
- p {
-     font-family: Ink Free;
-     color: #034AC9;
-    }
-li { font-family:Georgia;
-     font-size:20px;
-    }
+html, body {    
+    background: url(/images/design-assets/bgk-header.png) no-repeat center center fixed; 
+    background-size: cover;
+    
+}
 
- #image1 {
-     border-radius: 70%;
-     height: 400px;
-     width: 600px;
- }   
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a { 
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;    
+}
+
+.main-nav {
+    text-align: center;
+    margin-left: 480px;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(66, 184, 184, 0.733);  
+}
+
+.nav a:hover{
+    color: rgb(104, 252, 252);
+    
+}
+
+
+/* find onclick for css */
+.nav a:focus{
+    color: rgba(60, 224, 224, 0.733);   
+}
+
+.continfo {
+    padding-top: 10%;
+}
+
+#h1-1 {
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;            
+}
+
+.hr1 {
+    width: 50px;
+    height: 1.7px;
+    background-color: rgba(66, 184, 184, 0.733);
+    border: none;    
+}
+
+#p1 {
+    font-family: Helvetica;
+    font-size: 14px;
+    color:rgb(206, 203, 200);
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.conbut1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;    
+}
+
+.button1 {
+    cursor: pointer;       
+    border: 1.2px solid rgba(66, 184, 184, 0.733);
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color:rgb(60, 224, 224);   
+    margin-top: 1.5%;
+}
+
+.button1:hover{
+    box-shadow: inset 35px 125px 0 0 rgba(255, 255, 255, 0.050);
+}
+
+#h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.main-footer{
+    background: url(/images/design-assets/bgk-footer.png);
+    background-size: contain;
+    height: 100vh;
+    background-repeat: no-repeat;    
+    background-position: fill;
+       
+}   
+
+/*
+.navi li {
+    list-style-type: none;  
+      
+}
+
+.footer-nav img {    
+    width: 32px;
+    height: 32px;
+}
+
+*/
+
+
+
