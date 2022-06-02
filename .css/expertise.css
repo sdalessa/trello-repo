@@ -13,7 +13,7 @@
   display: inline-block;
   padding: 16px;
   margin-top: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;    
 }
 
@@ -46,10 +46,13 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #ffffff;    
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 80px;
+    margin-left: -8%;
+    
+
+    /* padding: 50px; */
   
     
     
@@ -58,9 +61,10 @@
     
     background-color: rgba(255, 255, 255, 0.8);
    /* border-left: 1px solid rgba(130, 121, 121, 0.8);*/
-    padding: 80px;
-    font-size: 30px;
-    text-align: center;
+   padding: 80px;
+   font-size: 30px;
+   text-align: center;
+   
     
    
     
@@ -89,6 +93,7 @@
       text-align: center;
       
       
+      
   }
   
   hr {
@@ -103,6 +108,7 @@
   h6 {
     font-family: sans-serif;
     text-transform: uppercase;
+    
     white-space:nowrap;
     
   }
