@@ -1,15 +1,89 @@
 
  body {    
-    background: url(../images/design-assets/bgk-middle.png) no-repeat center center fixed; 
+    background: url(../images/design-assets/bgk-header.png) no-repeat center center fixed; 
     background-size: cover;
     color:white;
 }
+
+/* NAVIGATION */
+
+
+#logo11 {
+    float: left;
+    margin-top: 12px;
+    margin-left: 450px;
+     
+}
+
+#logp {
+    font-family: 'Blogger Sans';
+    color: rgba(66, 184, 184, 0.733);
+    font-weight: 100;    
+    font-size: 36px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 8px;
+    
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a { 
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;    
+}
+
+.main-nav {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 350px;   
+    font-size: 14px;      
+}
+
+.nav a:hover{
+    color: rgb(104, 252, 252);
+    
+}
+
+#h1-1 {
+    font-weight: 700;
+    color:rgba(255, 255, 255, 0.863);
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+#teamp {
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.705);
+    text-align:center;
+    margin-top: -15px;
+}
+
+.hr1 {
+    width: 50px;
+} 
+
+
+
+/* GRID */
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;   
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
     grid-column-gap: 40px;
     
 }
@@ -30,6 +104,7 @@
 }
 
 h3 {
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     font-style:sans-serif;
@@ -40,15 +115,44 @@ h3.light {
     margin-top:-10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-p {
-   font-size:1.3em;
-   text-align:center;
-   margin-top: -15px;
 
+
+.p_unten {
+    font-family: Helvetica;
+    font-size: 16px;    
+    color: rgba(255, 253, 253, 0.774);
+    margin-top:60px;    
+    text-align:center;
+    margin-bottom: -5px;
 }
-p.p_unten {
-   margin-top:80px;
-   font-size:1.3em;
-   text-align:center;
-   margin-bottom: -2px;
+
+
+/* WE ARE HIRING BUTTON */
+
+
+.conbut1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.button1 {    
+    cursor: pointer;       
+    border: 1.2px solid rgba(66, 184, 184, 0.733);
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color:rgb(60, 224, 224);   
+    margin-top: 1.5%;
+    
+}
+
+.button1:hover{
+    box-shadow: inset 35px 125px 0 0 rgba(255, 255, 255, 0.050);
 }
