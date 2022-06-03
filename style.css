@@ -10,8 +10,6 @@ html, body {
     
 }
 
-
-
 #logo11 {
     float: left;
     margin-top: 12px;
@@ -70,6 +68,7 @@ html, body {
 }
 
 #h1-1 {
+    font-size: 30px;
     font-weight: bold;
     color: antiquewhite;
     text-align: center;            
@@ -104,7 +103,7 @@ html, body {
     text-align: center;    
 }
 
-.button1 {
+.button1 {    
     cursor: pointer;       
     border: 1.2px solid rgba(66, 184, 184, 0.733);
     height: 40px;
@@ -115,6 +114,7 @@ html, body {
     font-weight: bold;
     color:rgb(60, 224, 224);   
     margin-top: 3.5%;
+    
 }
 
 .button1:hover{
@@ -130,9 +130,9 @@ html, body {
     font-family:sans-serif;
     font-size: 14px;
     color: rgb(197, 194, 194);    
-    height: 250px;
-    margin-top: 200px;    
-    padding-top: 40px;      
+    height: 240px;
+    margin-top: 198px;    
+    padding-top: 15px;      
 }
 
 .row {
