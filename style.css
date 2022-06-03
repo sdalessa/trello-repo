@@ -59,8 +59,8 @@ html, body {
 }
 
 /* find onclick for css */
-.nav a:focus{
-    color: rgba(60, 224, 224, 0.733);   
+.nav a:focus{   
+    color: rgba(60, 224, 224, 0.733); 
 }
 
 .continfo {
@@ -125,14 +125,16 @@ html, body {
 /* FOOTER */
 
 .footer {    
-    background: url("images/design-assets/bgk-footer.png") ;
+    background-image: url("images/design-assets/bgk-footer.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     font-family:sans-serif;
     font-size: 14px;
     color: rgb(197, 194, 194);    
     height: 240px;
     margin-top: 198px;    
-    padding-top: 15px;      
+    padding-top: 45px;      
 }
 
 .row {
@@ -233,7 +235,8 @@ html, body {
 }
 
 #footp {
-    margin-right: 25%;
+    padding-right: 160px;
+    
 }
 
 #copyright {    
